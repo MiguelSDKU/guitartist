@@ -1,6 +1,8 @@
-.product {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  padding: 10px;
+.product img {
+  width: 280px;
+  height: auto;
+}
+
+.prodo {
+  border: 1px solid black;
 }

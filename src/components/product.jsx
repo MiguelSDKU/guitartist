@@ -1,33 +1,23 @@
 import "./product.css";
+import QuantityPicker from "./quantitypicker";
 
-function Product() {
+function Product(props) {
+  function adder() {
+    console.log("adding to cart");
+  }
+
   return (
     <div className="product">
       {" "}
-      <div>
+      <div className="prodo">
         {" "}
-        <h3>Gibson Les Paul </h3>
-        <p>$300</p>
-      </div>
-      <div>
-        {" "}
-        <h3>Fender Stratocaster </h3>
-        <p>$700</p>
-      </div>
-      <div>
-        {" "}
-        <h3>Jackson FLying V </h3>
-        <p>$500</p>
-      </div>
-      <div>
-        {" "}
-        <h3>Epiphone Acoustic</h3>
-        <p>$400</p>
-      </div>
-      <div>
-        {" "}
-        <h3>Yamaha Pacifica</h3>
-        <p>$350</p>
+        <img src={props.data.image} alt=""></img>
+        <h3>{props.data.title} </h3>
+        <label>${props.data.price}</label>
+        <QuantityPicker></QuantityPicker>
+        <button onClick={adder} className="btn btn-sm btn-primary">
+          Add
+        </button>
       </div>
     </div>
   );
