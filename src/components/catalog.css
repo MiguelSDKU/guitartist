@@ -16,3 +16,7 @@
   padding: 10px;
   margin-left: 8dvh;
 }
+
+.catalog .filters button {
+  margin: 6px 4px;
+}
