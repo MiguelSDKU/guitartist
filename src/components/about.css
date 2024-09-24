@@ -1,0 +1,16 @@
+.abt-card {
+  margin-top: 30dvh;
+  margin-bottom: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-sqr {
+  background-color: beige;
+  padding: 10dvh;
+}
+
+.outer-sqr {
+  background-color: green;
+  padding: 1dvh;
+}

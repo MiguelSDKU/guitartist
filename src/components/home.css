@@ -3,18 +3,34 @@
   padding-right: 1dvh;
   padding-left: 1dvh;
   margin-top: 2dvh;
-  margin-bottom: 2dvh;
+  background-image: url("../../public/images/636004615158608595-guitarcenter.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 80dvh;
+  height: 100%;
 }
 
-.home-img {
+/* .home-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 50% 70%;
+} */
+
+.welcome {
+  color: white;
+  padding-top: 30dvh;
+  text-shadow: 0 0 10px white, /* Glow blanco suave */ 0 0 20px white,
+    0 0 30px white, 0 0 40px white;
 }
 
-.banner-container {
-  background-color: aqua;
-  height: 40dvh;
-  margin-top: 2dvh;
+.welcome h2 {
+  font-size: 10dvh;
+  -webkit-text-stroke: 3px black;
+}
+
+.welcome h4 {
+  font-size: 5dvh;
+  -webkit-text-stroke: 2px black;
 }

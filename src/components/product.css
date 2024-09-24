@@ -6,3 +6,17 @@
 .prodo {
   border: 1px solid black;
 }
+
+.price-flex {
+  display: flex;
+  gap: 10dvh;
+}
+
+.solo-price {
+  color: rgb(7, 204, 23);
+  font-weight: bold;
+}
+
+.total-price {
+  font-weight: bolder;
+}
