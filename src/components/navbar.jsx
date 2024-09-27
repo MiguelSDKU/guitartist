@@ -4,7 +4,7 @@ import { useContext } from "react";
 import DataContext from "../state/DataContext";
 
 function Navbar() {
-  const user = useContext(DataContext).user;
+  const { user, cart } = useContext(DataContext);
 
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -72,9 +72,11 @@ function Navbar() {
               aria-label="Search"
             />
             <Link to="/cart">
-              {" "}
-              <button className="btn btn-outline-success" type="submit">
-                View Cart
+              <button className="btn btn-outline-success btn-sm" type="submit">
+                View Cart{" "}
+                <span className="badge bg-secondary text-light">
+                  {cart.length}
+                </span>
               </button>
             </Link>
           </form>

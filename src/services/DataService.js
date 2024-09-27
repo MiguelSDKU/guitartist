@@ -1,11 +1,4 @@
 export const catalog = [
-  // {
-  //   title: "test1",
-  //   image: "/images/No_Image_Available.jpg",
-  //   price: 12.33,
-  //   category: "Fruit",
-  //   _id: "12351",
-  // },
   {
     title: "Fender Stratocaster",
     image: "/images/Fender_Stratocaster.jpg",
@@ -82,6 +75,48 @@ export const catalog = [
     price: 3199.99,
     category: "Acoustic",
     _id: "GTR011",
+  },
+  {
+    title: "Boss DS-1 Distortion Pedal",
+    image: "/images/Boss_DS1.jpg",
+    price: 59.99,
+    category: "Pedal",
+    _id: "PDL001",
+  },
+  {
+    title: "Electro-Harmonix Big Muff Pi",
+    image: "/images/EHX_Big_Muff.jpg",
+    price: 89.99,
+    category: "Pedal",
+    _id: "PDL002",
+  },
+  {
+    title: "MXR Carbon Copy Analog Delay",
+    image: "/images/MXR_Carbon_Copy.jpg",
+    price: 149.99,
+    category: "Pedal",
+    _id: "PDL003",
+  },
+  {
+    title: "Marshall DSL40CR 40W Combo Amp",
+    image: "/images/Marshall_DSL40CR.jpg",
+    price: 749.99,
+    category: "Amplifier",
+    _id: "AMP001",
+  },
+  {
+    title: "Fender Blues Junior IV",
+    image: "/images/Fender_Blues_Junior_IV.jpg",
+    price: 649.99,
+    category: "Amplifier",
+    _id: "AMP002",
+  },
+  {
+    title: "Orange Rocker 15",
+    image: "/images/Orange_Rocker_15.jpg",
+    price: 799.99,
+    category: "Amplifier",
+    _id: "AMP003",
   },
 ];
 

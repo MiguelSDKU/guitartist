@@ -17,23 +17,26 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <GlobalProvider>
       {" "}
-      <div className="App">
-        <Navbar></Navbar>
+      {/* Envuelve la aplicación dentro de GlobalProvider */}
+      <BrowserRouter>
+        <div className="App">
+          <Navbar />
 
-        <Routes>
-          <Route path="/" element={<Home></Home>} />
-          <Route path="/catalog" element={<Catalog></Catalog>} />
-          <Route path="/about" element={<About></About>} />
-          <Route path="/admin" element={<Admin></Admin>} />
-          <Route path="/contact" element={<Contact></Contact>} />
-          <Route path="/cart" element={<Cart></Cart>} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/catalog" element={<Catalog />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/admin" element={<Admin />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
 
-        <Footer></Footer>
-      </div>
-    </BrowserRouter>
+          <Footer />
+        </div>
+      </BrowserRouter>
+    </GlobalProvider>
   );
 }
 

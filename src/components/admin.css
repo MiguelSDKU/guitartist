@@ -37,3 +37,26 @@
   margin-top: 18px;
   text-align: center;
 }
+
+.admin .prod {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+}
+
+.admin .prod img {
+  height: 70px;
+}
+
+.admin .prod h5 {
+  flex: 4;
+}
+
+.admin .prod label {
+  flex: 1;
+}
