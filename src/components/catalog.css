@@ -1,12 +1,15 @@
 .catalog {
   min-height: 600px;
-  background-color: #f5f7f8;
+  background-color: #ffffff94;
+  border-radius: 0.5%;
+  padding-bottom: 18dvh;
 }
 
 .catalog h1 {
   color: darkcyan;
-  font-size: 28px;
-  font-weight: 300;
+  font-size: 7dvh;
+  font-weight: 600;
+  margin-bottom: 3dvh;
 }
 
 .product {
@@ -19,4 +22,9 @@
 
 .catalog .filters button {
   margin: 6px 4px;
+  background-color: white;
+}
+
+.prodo {
+  background-color: white;
 }

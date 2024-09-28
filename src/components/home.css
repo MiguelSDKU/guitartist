@@ -1,13 +1,13 @@
 .home {
-  background-color: #f5f7f8;
+  /* background-color: #f5f7f8; */
   padding-right: 1dvh;
   padding-left: 1dvh;
   margin-top: 2dvh;
-  background-image: url("../../public/images/636004615158608595-guitarcenter.webp");
+  /* background-image: url("../../public/images/636004615158608595-guitarcenter.webp");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  padding-bottom: 80dvh;
+  background-repeat: no-repeat; */
+  padding-bottom: 30dvh;
   height: 100%;
 }
 
@@ -20,7 +20,7 @@
 
 .welcome {
   color: white;
-  padding-top: 30dvh;
+  padding-top: 10dvh;
   text-shadow: 0 0 10px white, /* Glow blanco suave */ 0 0 20px white,
     0 0 30px white, 0 0 40px white;
 }
@@ -33,4 +33,26 @@
 .welcome h4 {
   font-size: 5dvh;
   -webkit-text-stroke: 2px black;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+}
+
+.description {
+  margin-top: 15dvh;
+  background-color: rgba(248, 155, 79, 0.795);
+  margin-left: 20dvh;
+  margin-right: 20dvh;
+  font-size: 3dvh;
+  font-weight: 400;
+  border-radius: 0.5%;
+  padding-top: 2dvh;
+  padding-bottom: 2dvh;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
 }

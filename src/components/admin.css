@@ -1,14 +1,25 @@
 .admin-flex {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 40dvh;
+  padding-bottom: 20.8dvh;
+  margin-top: 4dvh;
+}
+
+.admin {
+  background-color: #ffffff94;
+}
+
+.h1color {
+  color: #008b8b;
+  font-size: 7dvh;
 }
 
 .products {
-  flex: 3;
 }
 
 .coupons {
-  flex: 2;
 }
 
 .admin button {

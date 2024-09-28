@@ -1,6 +1,4 @@
 .abt-card {
-  margin-top: 30dvh;
-  margin-bottom: 25%;
   display: flex;
   justify-content: center;
 }
@@ -13,4 +11,10 @@
 .outer-sqr {
   background-color: green;
   padding: 1dvh;
+}
+
+.about {
+  background-color: #ffffff94;
+  padding-top: 25dvh;
+  padding-bottom: 24.2dvh;
 }

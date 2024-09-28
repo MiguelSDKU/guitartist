@@ -7,3 +7,28 @@ h4 {
 .cartl {
   color: black;
 }
+
+.navbars {
+  background-color: transparent;
+  margin: 0;
+  padding-bottom: 3dvh;
+  border-bottom: 5px dotted black;
+}
+
+.navbarog {
+  margin-top: 0dvh;
+  padding-top: 1dvh;
+  font-size: 2.5dvh;
+}
+
+.spacenav {
+  margin-left: 5dvh;
+}
+
+.navsize {
+  font-size: 10dvh;
+}
+
+.d-flex {
+  align-items: center;
+}

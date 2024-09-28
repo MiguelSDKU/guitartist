@@ -2,7 +2,7 @@ import "./about.css";
 
 function About() {
   return (
-    <div>
+    <div className="about">
       <div className="abt-card">
         <div className="outer-sqr">
           {" "}

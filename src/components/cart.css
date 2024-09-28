@@ -76,5 +76,6 @@
 }
 
 .cart {
-  margin-bottom: 68dvh;
+  padding-bottom: 68dvh;
+  background-color: white;
 }

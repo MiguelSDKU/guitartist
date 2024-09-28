@@ -57,7 +57,7 @@ function Admin() {
 
   return (
     <div className="admin">
-      <h1>Store Administration</h1>
+      <h1 className="h1color">Store Administration</h1>
       <div className="admin-flex">
         <div className="products">
           <div className="form">

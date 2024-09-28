@@ -25,12 +25,12 @@ function Contact() {
   }
 
   return (
-    <div>
-      <h1>Contact Us!</h1>
+    <div className="contactw">
+      <h1 className="h1color">Contact Us!</h1>
       <div className="contact-form">
         {" "}
         <div class="mb-3">
-          <label for="formGroupExampleInput" class="form-label">
+          <label for="formGroupExampleInput" class="form-label labelz">
             Name
           </label>
           <input
@@ -42,7 +42,7 @@ function Contact() {
           ></input>
         </div>
         <div class="mb-3">
-          <label for="formGroupExampleInput2" class="form-label">
+          <label for="formGroupExampleInput2" class="form-label labelz">
             Email
           </label>
           <input
@@ -54,7 +54,7 @@ function Contact() {
           ></input>
         </div>
         <div class="mb-3">
-          <label for="formGroupExampleInput2" class="form-label">
+          <label for="formGroupExampleInput2" class="form-label labelz">
             Message
           </label>
           <input

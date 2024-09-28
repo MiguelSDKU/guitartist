@@ -20,6 +20,9 @@ function App() {
     <GlobalProvider>
       {" "}
       {/* Envuelve la aplicación dentro de GlobalProvider */}
+      <video autoPlay muted loop id="myVideo">
+        <source src="/images/behindjazz.mp4" type="video/mp4"></source>
+      </video>
       <BrowserRouter>
         <div className="App">
           <Navbar />
