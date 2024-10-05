@@ -1,10 +1,24 @@
 import "./catalog.css";
 import Product from "./product.jsx";
-import { catalog as Products, categories } from "../services/DataService.js";
-import { useState } from "react";
+import DataService, {
+  catalog as Products,
+  categories,
+} from "../services/DataService.js";
+import { useEffect, useState } from "react";
 
 function Catalog() {
   const [filter, setFilter] = useState("");
+  const [products, setProducts] = useState([]);
+
+  async function loadData() {
+    let data = await DataService.getProducts();
+    setProducts(data);
+  }
+
+  //when the page loads
+  useEffect(() => {
+    loadData();
+  }, []);
 
   return (
     <div className="catalog">
@@ -33,11 +47,11 @@ function Catalog() {
       </div>
 
       <div className="product">
-        {Products.filter((prod) => filter == "" || prod.category == filter).map(
-          (prod) => (
+        {products
+          .filter((prod) => filter == "" || prod.category == filter)
+          .map((prod) => (
             <Product data={prod}></Product>
-          )
-        )}
+          ))}
       </div>
 
       {/* <div className="product">
